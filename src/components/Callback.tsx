@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../store/authStore';
+import React from 'react';
 
 export const Callback = () => {
   const navigate = useNavigate();

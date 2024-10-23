@@ -4,6 +4,7 @@ import { PlaylistList } from './PlaylistList';
 import { spotifyApi, shuffleArray } from '../utils/spotify';
 import { useMutation } from '@tanstack/react-query';
 import { SpotifyTrack } from '../types/spotify';
+import React from 'react';
 
 export const Dashboard = () => {
   const [status, setStatus] = useState<string>('');

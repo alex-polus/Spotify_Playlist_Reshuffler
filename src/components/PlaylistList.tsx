@@ -2,6 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import { spotifyApi } from '../utils/spotify';
 import { SpotifyPlaylist } from '../types/spotify';
 import { useAuthStore } from '../store/authStore';
+import React from 'react';
 
 interface PlaylistListProps {
   onPlaylistSelect: (playlistId: string) => void;
